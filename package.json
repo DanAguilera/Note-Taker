@@ -1,0 +1,19 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "Note Taker App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanAguilera/Note-Taker.git"
+  },
+  "author": "Daniel Aguilera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanAguilera/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/DanAguilera/Note-Taker#readme"
+}
