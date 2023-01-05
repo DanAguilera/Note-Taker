@@ -2,7 +2,7 @@ const router = require('express').Router();
 
 const store = require('../store');
 
-// requesting the existing notes
+
 
 router.get('/notes', (req, res) => {
     store
@@ -15,7 +15,7 @@ router.get('/notes', (req, res) => {
         })
 })
 
-// posting note function route 
+ 
 
 router.post('/notes', (req, res) => {
     console.log(req.body)
@@ -30,7 +30,6 @@ router.post('/notes', (req, res) => {
 })
 
 
-// delete note function route
 
 router.delete('/notes/:id', (req, res) => {
     store
